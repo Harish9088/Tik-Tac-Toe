@@ -1,0 +1,31 @@
+body {
+    text-align: center;
+    background-color: #7d0633;
+    cursor: pointer;
+}
+h1 {
+    color: #fbdcc4;
+    font-size:4rem;
+}
+
+.grid-container {
+    display: grid;
+    grid: 150px / auto auto auto;
+    grid-gap: 10px;
+    background-color: #31112c;
+    padding: 0px;
+    width:420px;
+    height:420px;
+    margin-left:32%;
+  }
+  
+  .grid-container > div {
+    background-color:#7d0633;
+    text-align: center;
+    padding: 20px 10;
+    font-size: 5rem;
+    color:#f2a07b;
+    }
+
+  
+
